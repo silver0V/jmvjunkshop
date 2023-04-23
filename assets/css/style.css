@@ -56,7 +56,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #007bff;
+  background: #013172;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -150,7 +150,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-family: 'Tilt Neon', cursive;
   font-size: 15px;
-  color: #013172;
+  color: #004289;
   font-weight: 500;
   white-space: nowrap;
   transition: 0.3s;

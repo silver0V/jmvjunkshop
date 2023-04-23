@@ -18,7 +18,7 @@
 		<ul>
 		<li><a class="active" href="index.php">Home</a></li>
 			<li><a href="#">Recycle Guide</a></li>
-			<li><a href="#">Services</a></li>
+			<li><a href="services.php">Services</a></li>
 			<li><a href="#">About Us</a></li>
 			<li><a href="feedback.php">Feedback</a></li>
 			<li><a href="#">Contact Us</a></li>

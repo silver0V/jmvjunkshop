@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
 	<title>JMV Junkshop!</title>
-	<link rel="icon" href="images/jmvlogo1.jpg" sizes="96x96" type="image/jpg">
+	<link rel="icon" href="images/jmvlogotrans.png" sizes="96x96" type="image/png">
 </head>
 <body>
 	<nav>

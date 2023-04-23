@@ -26,6 +26,6 @@
 	</nav>
 	
 	<br>
-	<h1>Hi pH0wz</h1>
+	<h1>Welcome!</h1>
 </body>
 </html>

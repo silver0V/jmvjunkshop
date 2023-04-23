@@ -86,7 +86,7 @@ h6 {
   height: 80px;
   z-index: 997;
   transition: all 0.5s;
-  background: #fff;
+  background: #013172;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -111,7 +111,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #00366f;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -148,7 +148,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tilt Neon', cursive;
   font-size: 15px;
   color: #004289;
   font-weight: 500;
@@ -180,7 +180,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #013172;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }

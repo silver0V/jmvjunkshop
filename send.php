@@ -38,7 +38,7 @@ if(isset($_POST["send"])){
     document.location.href = feedback.php
     </script>
     ";
-    header("Location: index.php");
+    header("Location: index.html");
 }
 
 // // the message

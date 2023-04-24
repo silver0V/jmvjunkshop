@@ -72,13 +72,13 @@
     <hr style="height:1px;background-color:black">
     <form action="send.php" method="POST">
         Name <br>
-        <input type="text" size="50" name="name" value=""> <br>
+        <input type="text" size="50" name="name" value="" placeholder="Name"> <br>
         <br>
         Email Address <br>
-        <input type="email" size="50" name="email" value=""> <br>
+        <input type="email" size="50" name="email" value="" placeholder="jmvjunkshop@gmail.com"> <br>
         <br>
         Message <br>
-        <textarea id="freeform" name="message" rows="4" cols="50"></textarea><br>
+        <textarea id="freeform" name="message" rows="4" cols="50" placeholder="Your feedback here.."></textarea><br>
         <br>
         <hr style="height:1px;background-color:black">
         <button type="submit" name="send">Send E-mail</button>

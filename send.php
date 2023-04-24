@@ -3,11 +3,15 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+require 'phpmailer/vendor/autoload.php';
+
 require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
 $intro = "Feedback from: " . $_POST["name"];
+$email = $_POST["email"];
+$name = $_POST["name"];
 
 if(isset($_POST["send"])){
     $mail = new PHPMailer(true);
@@ -16,11 +20,11 @@ if(isset($_POST["send"])){
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'villasangelgrace@gmail.com';
-    $mail->Password = 'udnbzbxkepipniis';
-    $mail->SMTPSecure = 'ssl';
-    $mail->Port = 465;
+    $mail->Password = 'rnzfqkdjypfztkqy';
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 587;
 
-    $mail->setFrom($_POST["email"]);
+    $mail->setFrom('villasangelgrace@gmail.com');
 
     $mail->addAddress('jmvjunkshop@gmail.com');
 

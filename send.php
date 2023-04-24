@@ -24,7 +24,7 @@ if(isset($_POST["send"])){
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
-    $mail->setFrom('villasangelgrace@gmail.com');
+    $mail->setFrom($email, $name);
 
     $mail->addAddress('jmvjunkshop@gmail.com');
 

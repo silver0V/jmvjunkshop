@@ -35,14 +35,20 @@ if(isset($_POST["send"])){
 
     $mail->send();
 
-    echo
-    "
-    <script>
-    alert('Sent Successfully');
-    </script>
-    ";
+    // echo
+    // "
+    // <script>
+    // alert('Sent Successfully');
+    // document.location.href = feedback.php
+    // </script>
+    // ";
+
+    echo '<script type="text/javascript">'; 
+    echo 'alert("Feedback sent!");'; 
+    echo 'window.location.href = "feedback.php";';
+    echo '</script>';
 }
-header("Location: index.html");
+
 
 // // the message
 // $msg = $_GET ['message'];

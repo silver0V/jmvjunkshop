@@ -39,7 +39,6 @@ if(isset($_POST["send"])){
     "
     <script>
     alert('Sent Successfully');
-    document.location.href = feedback.php
     </script>
     ";
 }

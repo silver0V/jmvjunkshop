@@ -42,8 +42,8 @@ if(isset($_POST["send"])){
     document.location.href = feedback.php
     </script>
     ";
-    header("Location: index.html");
 }
+header("Location: index.html");
 
 // // the message
 // $msg = $_GET ['message'];
@@ -54,4 +54,5 @@ if(isset($_POST["send"])){
 
 // // send email
 // mail($email,"My subject",$msg);
-// ?>
+// 
+?>

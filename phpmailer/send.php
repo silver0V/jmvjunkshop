@@ -13,7 +13,7 @@ $intro = "Feedback from: " . $_POST["name"];
 $email = $_POST["email"];
 $name = $_POST["name"];
 
-if(isset($_POST["send"])){
+if(isset($_POST["submit"])){
     $mail = new PHPMailer(true);
 
     $mail->SMTPDebug = 0;

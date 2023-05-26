@@ -104,7 +104,7 @@
             </div> -->
 
             <div class="form">
-              <form action="sendEmail.php" method="post" class="php-email-form">
+              <form action="sendEmail.php" role="form" method="post" class="php-email-form">
                 <div class="row">
                   <!-- <div class="form-group col-lg-6 mt-3 mt-lg-0">
                     <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>

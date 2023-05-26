@@ -53,7 +53,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="services.php">Services</a></li>
+          <li><a class="nav-link scrollto active" href="services.php">Services</a></li>
           <li class="dropdown"><a class=""><span>Recycle Right</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="rPWS.php">Proper Waste Segregation</a></li>
@@ -61,7 +61,7 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="about.php">About Us</a></li>
-          <li><a class="nav-link scrollto active" href="feedback.php">Feedback</a></li>
+          <li><a class="nav-link scrollto " href="feedback.php">Feedback</a></li>
           <li><a class="nav-link scrollto" href="contact.php">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -71,71 +71,69 @@
   </header><!-- #header -->
 
   <main id="main">
-    <!-- ======= Contact Section ======= -->
-    <section id="contact">
-      <div class="container-fluid" data-aos="fade-up">
-        <br> <br> <br>
-        <div class="section-header">
-          <h3>Leave a Feedback</h3>
-        </div>
 
-        <div class="row">
+  <!-- ======= Services Section ======= -->
+    <section id="services" class="section-bg">
+      <div class="container" data-aos="">
 
-          <!-- <div class="col-lg-6">
-            <div class="map mb-4 mb-lg-0">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 340px;" allowfullscreen></iframe>
-            </div>
-          </div> -->
+        <header class="section-header">
+            <br> <br> <br>
+          <h3>Services</h3>
+          <p>Our services can be acquired by walk-in and contacting us through email or phone. Here are the services we offer to cater to the needs of our customers:</p>
+        </header>
 
-          <!-- <div class="col-lg-6">
-            <div class="row">
-              <div class="col-md-5 info">
-                <i class="bi bi-geo-alt"></i>
-                <p>A108 Adam Street, NY 535022</p>
-              </div>
-              <div class="col-md-4 info">
-                <i class="bi bi-envelope"></i>
-                <p>info@example.com</p>
-              </div>
-              <div class="col-md-3 info">
-                <i class="bi bi-phone"></i>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div> -->
+        <div class="row justify-content-center">
 
-            <div class="form">
-              <form action="phpmailer/send.php" method="post" class="php-email-form">
-                <div class="row">
-                  <!-- <div class="form-group col-lg-6 mt-3 mt-lg-0">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div> -->
-                </div>
-                <div class="form-group w-50 mt-3 mx-auto">
-                    Name
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                <div class="form-group w-50 mt-3 mx-auto">
-                    Email
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group w-50 mt-3 mx-auto">
-                    Feedback
-                  <textarea class="form-control" name="message" rows="5" placeholder="Your Feedback" required></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Feedback</button></div>
-              </form>
+          <div class="col-md-6 col-lg-5" data-aos="" data-aos-delay="">
+            <div class="box">
+              <div class="icon"><i class="bi bi-bag" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a>Buy</a></h4>
+              <p class="description">We offer buying services to customers who wish to sell their unwanted items. We are very strict and do not accept stolen items.</p>
             </div>
           </div>
+          <div class="col-md-6 col-lg-5" data-aos="" data-aos-delay="">
+            <div class="box">
+              <div class="icon"><i class="bi bi-cash-coin" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a>Sell</a></h4>
+              <p class="description">We offer items that we have purchased to clients who require them. The shop typically has items on display. If there is a certain item you want, communicate with staff members.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5" data-aos="" data-aos-delay="">
+            <div class="box">
+              <div class="icon"><i class="bi bi-truck" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a>Pick-up</a></h4>
+              <p class="description">We offer pick-up service for larger items that sellers are unable to transport themselves. This is to assist sellers in efficiently selling their bulkier belongings.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5" data-aos="" data-aos-delay="">
+            <div class="box">
+              <div class="icon"><i class="bi bi-shop-window" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a>Partnership</a></h4>
+              <p class="description">We are always open for partnerships. We usually work with other junkshops near us. Collaborating with other junk shops allows for the sharing of resources and knowledge.</p>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-6 col-lg-5" data-aos="" data-aos-delay="">
+            <div class="box">
+              <div class="icon"><i class="bi bi-brightness-high" style="color: #d6ff22;"></i></div>
+              <h4 class="title"><a>Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <div class="icon"><i class="bi bi-calendar4-week" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a>Eiusmod Tempor</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+          </div> -->
 
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Services Section -->
   </main>
 
   <!-- ======= Footer ======= -->
@@ -145,29 +143,39 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-info">
-            <h3>NewBiz</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <h3>JMV Junkshop</h3>
+            <p>Start your junk exploration today and help our Earth by recycling while also getting money from it!</p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.php">Services</a></li>
+              <li><a href="rPWS.php">Proper Wast Segregation</a></li>
+              <li><a href="rWCBR.php">What Can Be Recycled?</a></li>
+              <li><a href="about.php">About Us</a></li>
+              <li><a href="feedback.php">Feedback</a></li>
+              <li><a href="contact.php">Contact Us</a></li>
             </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
               A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
+              San Jose, Baliwag, Bulacan<br>
+              Philippines <br>
               <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Email:</strong> jmvjunkshop@gmail.com<br>
             </p>
 
             <div class="social-links">
@@ -178,14 +186,6 @@
               <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
 
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
           </div>
 
         </div>
@@ -205,7 +205,7 @@
       -->
         <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
-    </div> -->
+    </div>  -->
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -223,5 +223,4 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>

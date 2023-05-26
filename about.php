@@ -5,16 +5,19 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - NewBiz Bootstrap Template</title>
+  <title>JMV Junkshop</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/jmvlogotrans.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -44,34 +47,22 @@
       <div class="logo">
         <!-- Uncomment below if you prefer to use an text logo -->
         <!-- <h1><a href="index.html">NewBiz</a></h1> -->
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <a href="index.html"><img src="assets/img/jmvname.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="services.php">Services</a></li>
+          <li class="dropdown"><a href="recRight.php"><span>Recycle Right</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="rPWS.php">Proper Waste Segregation</a></li>
+              <li><a href="rWCBR.php">What Can Be Recycled?</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="active" href="about.php">About Us</a></li>
+          <li><a class="nav-link scrollto " href="feedback.php">Feedback</a></li>
+          <li><a class="nav-link scrollto" href="contact.php">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -81,32 +72,76 @@
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="">
+        <br> <br>
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p></p>
+        </header>
 
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
-          </ol>
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h1>JMV Junkshop</h1>  <br>
+            <p>
+            JMV Junkshop is a buy-and-sell business that deals with customers’ scrap. From Monday through Saturday, the shop is open from 7:00 am to 5:00 pm. It is open on Sundays on specific occasions.
+            </p>
+          </div>
+
+          <!-- <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
+            <img src="assets/img/about-img.svg" class="img-fluid" alt="">
+          </div> -->
+        </div>
+
+        <div class="row about-extra">
+          <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <img src="assets/img/about-extra-2.svg" class="img-fluid" alt="">
+          </div> -->
+
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="">
+            <h4>Our Mission:</h4> <br>
+            <p>
+              Our mission is to provide efficient and eco-friendly waste management solutions by operating a junkshop company that promotes recycling and sustainable living. We aim to reduce the amount of waste sent to landfills by collecting, segregating, and processing recyclable materials, while also providing fair prices to our customers.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="row about-extra">
+          <!-- <div class="col-lg-6" data-aos="fade-right">
+            <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="">
+          </div> -->
+          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="">
+            <h4>Our Vision:</h4>  <br>
+            <p>
+            Our vision is to be a leading junkshop company in our community, known for our commitment to sustainability and environmental stewardship. We strive to continuously improve our operations, expand our services, and educate our customers about the importance of waste reduction and recycling. Ultimately, we envision a future where waste is no longer seen as a problem, but as a valuable resource that can be reused and repurposed in innovative ways.
+            </p>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <!-- <div class="col-lg-6" data-aos="fade-right">
+            <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="">
+          </div> -->
+          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
+            <h1>Our Story</h1>  <br>
+            <p>
+            In the year 2004, JMV Junkshop was established because of a heartfelt desire to provide a secure future for the owner's newly formed family with two beloved children.
+            Established with love and determination, the company was born out of the need to create a reliable source of income and stability for their family. 
+
+            </p>
+          </div>
         </div>
 
       </div>
-    </section><!-- End Breadcrumbs Section -->
-
-    <section class="inner-page pt-4">
-      <div class="container">
-        <p>
-          Example inner page template
-        </p>
-      </div>
-    </section>
+    </section><!-- End About Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
+  <br> <br> <br>
   <footer id="footer">
     <div class="footer-top">
       <div class="container">

@@ -181,7 +181,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #013172;
+  background:#013172;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -363,7 +363,7 @@ h6 {
 }
 
 #hero .hero-img {
-  width: 50%;
+  width: 40%;
   float: right;
 }
 
@@ -403,7 +403,7 @@ h6 {
 }
 
 #hero .hero-info h2 span {
-  color: #74b5fc;
+  color: #a6d881;
   text-decoration: underline;
 }
 
@@ -696,7 +696,7 @@ section {
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #95ce6c;
 }
 
 #why-us .section-header h3,
@@ -705,8 +705,8 @@ section {
 }
 
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: #87c657;
+  border-color: #87c657;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
@@ -723,14 +723,14 @@ section {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: #01720A;
+  border-color: #01720A;
 }
 
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
+  color: #d5dce3;
 }
 
 #why-us .card h5 {
@@ -740,7 +740,7 @@ section {
 
 #why-us .card p {
   font-size: 15px;
-  color: #d8eafe;
+  color: #d3d7dc;
 }
 
 #why-us .card .readmore {
@@ -748,7 +748,7 @@ section {
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
+  border-bottom: #87c657 solid 2px;
 }
 
 #why-us .card .readmore:hover {
@@ -1405,12 +1405,14 @@ section {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+ 
 }
 
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  
 }
 
 #footer .footer-top .footer-links ul li {
@@ -1431,20 +1433,24 @@ section {
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  text-align: right;
 }
 
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+  text-align: right;
 }
 
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
+  visibility: hidden;
 }
 
 #footer .footer-top .footer-newsletter input[type=email] {
   border: 0;
   padding: 6px 8px;
   width: 65%;
+  visibility: hidden;
 }
 
 #footer .footer-top .footer-newsletter input[type=submit] {
@@ -1456,10 +1462,12 @@ section {
   color: #fff;
   transition: 0.3s;
   cursor: pointer;
+  visibility: hidden;
 }
 
 #footer .footer-top .footer-newsletter input[type=submit]:hover {
   background: #0062cc;
+  visibility: hidden;
 }
 
 #footer .copyright {

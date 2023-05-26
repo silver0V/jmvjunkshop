@@ -98,7 +98,7 @@ try
 
     // All the necessary headers for the email.
     $headers = array('Content-Type: text/plain; charset="UTF-8";',
-        'From: ' . $from,
+        'Feedback from: ' . $from,
         'Reply-To: ' . $_POST['email'],
         'Return-Path: ' . $from,
     );

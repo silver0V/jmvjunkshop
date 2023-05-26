@@ -152,8 +152,7 @@
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="services.php">Services</a></li>
-              <li><a href="rPWS.php">Proper Wast Segregation</a></li>
-              <li><a href="rWCBR.php">What Can Be Recycled?</a></li>
+              <li><a href="rPWS.php">Recycle Right</a></li>
               <li><a href="about.php">About Us</a></li>
               <li><a href="feedback.php">Feedback</a></li>
               <li><a href="contact.php">Contact Us</a></li>
@@ -171,7 +170,7 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
+              141 J.P. Rizal St., <br>
               San Jose, Baliwag, Bulacan<br>
               Philippines <br>
               <strong>Phone:</strong> +1 5589 55488 55<br>
@@ -192,20 +191,20 @@
       </div>
     </div>
 
-    <!-- <div class="container">
+    <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>NewBiz</strong>. All Rights Reserved
+        &copy; Copyright <strong>JMV Junkshop</strong>. All Rights Reserved
       </div>
-      <div class="credits"> -->
+      <div class="credits">
         <!--
         All the links in the footer should remain intact.
         You can delete the links only if you purchased the pro version.
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
       -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Developed by <a>JMV Junkshop</a>
       </div>
-    </div>  -->
+    </div> 
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

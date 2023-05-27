@@ -79,7 +79,7 @@
         <header class="section-header">
             <br> <br> <br>
           <h3>Services</h3>
-          <p>Our services can be acquired by walk-in and contacting us through email or phone. Here are the services we offer to cater to the needs of our customers:</p>
+          <p>Our services can be acquired by walk-in and contacting us through email or phone. <br> Here are the services we offer to cater to the needs of our customers:</p>
         </header>
 
         <div class="row justify-content-center">
@@ -134,6 +134,121 @@
       </div>
     </section>
     <!-- End Services Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3>Junk</h3>
+          <p>The junk or materials that we usually buy and sell. <br>These scraps have fluctuating pricing. Pricing is constantly changing.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/j1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Bakal</h4>
+                  <span>(Metal, steel)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/j2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Lata</h4>
+                  <span>(can, tin)</span>
+                </div> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/j3.jpeg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Yero</h4>
+                  <span>(iron sheet)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/j4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Cardboard</h4>
+                  <span>(paper)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/j6.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Tanso</h4>
+                  <span>(bronze, copper)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/j7.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Bottles</h4>
+                  <span>(glass, plastic)</span>
+                </div> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/j8.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Plastic</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/j9.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>and other recycables..</h4>
+                  <span>Customers are welcome to ask us if a certain material can be bought/sold</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Team Section -->
+
   </main>
 
   <!-- ======= Footer ======= -->

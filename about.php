@@ -125,12 +125,16 @@
           <!-- <div class="col-lg-6" data-aos="fade-right">
             <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="">
           </div> -->
-          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
+          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="">
             <h1>Our Story</h1>  <br>
             <p>
             In the year 2004, JMV Junkshop was established because of a heartfelt desire to provide a secure future for the owner's newly formed family with two beloved children.
             Established with love and determination, the company was born out of the need to create a reliable source of income and stability for their family. 
+            At the back of the store, where junk was also kept, the family used to reside. As the years passed, the shop expanded, the family was able to build their own home, 
+            buy additional trucks, and hire more people. 
 
+            As the business has expanded, it created connections with other junkshops in nearby areas and developed a drive to carry out its own goals and objectives.
+            The shop was operated by the owners for 19 years as a result of their diligence, strategy, and teamwork.
             </p>
           </div>
         </div>

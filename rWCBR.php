@@ -70,6 +70,25 @@
     </div>
   </header><!-- #header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="clearfix">
+    <div class="container">
+
+      <div class="hero-img" data-aos="zoom-in">
+        <img src="assets/img/recycling2.png" alt="" class="img-fluid">
+      </div>
+      <br> <br> <br> <br> 
+      <div class="hero-info">
+        <h2>Turn <span>TRASH</span><br>into <span>CASH</span></h2>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="services.php" class="btn-services scrollto">Our Services</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Hero Section -->
+
   <main id="main">
 
   </main>

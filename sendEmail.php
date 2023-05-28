@@ -44,15 +44,12 @@ if (isset($_POST['submit'])){
 if (isset($_POST['submit'])){
     $to2 = $email;
     $subject2 = 'We received your feedback!';
-    $headers2 = "MIME-Version: 1.0" . "\r\n";
-    $headers2 .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers2 = 'From:jmvjunkshop@gmail.com' . "\r\n";
     $feedback2 = '<html>
     <head>
     <title>HTML email</title>
     </head>
     <body>
-    Hello, <br> <br>
+    <p>Hello, <br> <br>
 
     Thank you for leaving feedback on our website! <br> <br>
 
@@ -60,7 +57,7 @@ if (isset($_POST['submit'])){
     <br> <br>
     If you have more concerns, please do not hesitate to contact us: <br>
     <a href="">jmvjunkshop@gmail.com </a><br>
-    09895452113 <br>
+    09895452113 </p><br>
     </body>
     </html>';
 
@@ -71,8 +68,11 @@ if (isset($_POST['submit'])){
     $message .= "<a href=''>jmvjunkshop@gmail.com </a> <br> <br>";
     $message .= "09895452113</p>";
 
-
-    mail($to2, $subject2, $message, $headers2);
+    $headers2 = "MIME-Version: 1.0" . "\r\n";
+    $headers2 .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $headers2[] = 'From: JMV Junkshop <jmvjunkshop@gmail.com>';
+    // $headers2 = 'From:jmvjunkshop@gmail.com' . "\r\n";
+    mail($to2, $subject2, $feedback2, implode("\r\n", $headers));
 
 
     echo '<script type="text/javascript">'; 

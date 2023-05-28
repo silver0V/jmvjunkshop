@@ -64,7 +64,15 @@ if (isset($_POST['submit'])){
     </body>
     </html>';
 
-    mail($to2, $subject2, $feedback2, $headers2);
+    $message = "<p>Hello, <br> <br>";
+    $message .= "Thank you for leaving feedback on our website! <br> <br>";
+    $message .= "This auto-reply is to let you know that we have received your email and will get back to you with a human response as soon as possible. We appreciate the review that you sent for the improvement of the company. <br> <br>";
+    $message .= "If you have more concerns, please do not hesitate to contact us: <br> <br>";
+    $message .= "<a href=''>jmvjunkshop@gmail.com </a> <br> <br>";
+    $message .= "09895452113</p>";
+
+
+    mail($to2, $subject2, $message, $headers2);
 
 
     echo '<script type="text/javascript">'; 

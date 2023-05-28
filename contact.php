@@ -136,11 +136,11 @@
             <div class="row">
               <div class="col-md-5 info">
                 <i class="bi bi-geo-alt"></i>
-                <p>A108 Adam Street, NY 535022</p>
+                <p>141 J.P. Rizal St., San Jose, Baliwag, Bulacan</p>
               </div>
               <div class="col-md-4 info">
                 <i class="bi bi-envelope"></i>
-                <p>info@example.com</p>
+                <p>jmvjunkshop@gmail.com</p>
               </div>
               <div class="col-md-3 info">
                 <i class="bi bi-phone"></i>

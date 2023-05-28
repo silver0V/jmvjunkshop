@@ -594,18 +594,18 @@ section {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #95ce6c;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #95ce6c;
   font-size: 24px;
   line-height: 0;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #95ce6c;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -635,6 +635,11 @@ section {
 
 #about .about-extra h4 {
   font-weight: 600;
+  font-size: 24px;
+}
+
+#about .about-extra h3 {
+  font-weight: bold;
   font-size: 24px;
 }
 

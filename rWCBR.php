@@ -70,26 +70,96 @@
     </div>
   </header><!-- #header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="clearfix">
-    <div class="container">
-
-      <div class="hero-img" data-aos="zoom-in">
-        <img src="assets/img/recycling2.png" alt="" class="img-fluid">
-      </div>
-      <br> <br> <br> <br> 
-      <div class="hero-info">
-        <h2>Turn <span>TRASH</span><br>into <span>CASH</span></h2>
-        <div>
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
-          <a href="services.php" class="btn-services scrollto">Our Services</a>
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End Hero Section -->
-
   <main id="main">
+
+  <!-- ======= About Section ======= -->
+  <section id="about">
+      <div class="container" data-aos="">
+
+        <header class="section-header">
+          <br> <br> <br>
+          <h3>What Can Be Recycled?</h3>
+          <p>A wide range of materials can be recycled, and the specific recyclable materials can vary depending on the recycling infrastructure and facilities available in a particular region. </p>
+        </header>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2" data-aos="fade-up" data-aos-delay="100">
+            <p>
+            It's important to note that recycling capabilities and accepted materials may vary depending on local recycling programs and facilities. It's always recommended to check with your local recycling center or waste management authority for specific guidelines on recycling in your area.
+            Here are some commonly recycled materials:
+            </p>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-newspaper"></i></div>
+              <h4 class="title"><a href="">Paper</a></h4>
+              <p class="description">This includes newspapers, magazines, office paper, cardboard, and paper packaging. Recycled paper can be used to produce new paper products.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-cup-straw"></i></div>
+              <h4 class="title"><a href="">Plastics</a></h4>
+              <p class="description">Various types of plastics can be recycled, including bottles, containers, packaging materials, and plastic bags. The recycling process involves sorting and processing the plastics to create new plastic product</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-cup"></i></div>
+              <h4 class="title"><a href="">Glass</a></h4>
+              <p class="description">Glass containers, such as bottles and jars, can be recycled. The glass is crushed, melted, and reshaped into new glass products.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-layers"></i></div>
+              <h4 class="title"><a href="">Metals</a></h4>
+              <p class="description">Commonly recycled metals include aluminum cans, steel cans, tin cans, and scrap metal. The recycling process involves melting and refining the metals to create new metal products.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-display"></i></div>
+              <h4 class="title"><a href="">Electronics</a></h4>
+              <p class="description">Electronic devices, such as computers, laptops, smartphones, and televisions, can be recycled to recover valuable materials and prevent hazardous substances from entering the environment.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-battery-charging"></i></div>
+              <h4 class="title"><a href="">Batteries</a></h4>
+              <p class="description">Different types of batteries, including household batteries, rechargeable batteries, and automotive batteries, can be recycled to recover valuable metals and prevent environmental contamination.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-basket3"></i></div>
+              <h4 class="title"><a href="">Textiles</a></h4>
+              <p class="description">Textiles, including clothing, shoes, and fabrics, can be recycled. They can be sorted, processed, and transformed into new textile products or used for other purposes, such as insulation or carpet padding.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-trash3"></i></div>
+              <h4 class="title"><a href="">Organic Waste</a></h4>
+              <p class="description">Organic waste, such as food scraps and yard waste, can be composted. Composting is a natural process that turns organic materials into nutrient-rich compost, which can be used as fertilizer for plants and gardens.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-bag"></i></div>
+              <h4 class="title"><a href="">Plastic Film</a></h4>
+              <p class="description">Thin plastic films, such as plastic shopping bags, plastic wrap, and packaging materials, can often be recycled separately. Some recycling programs accept plastic film for recycling.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-car-front"></i></div>
+              <h4 class="title"><a href="">Tires</a></h4>
+              <p class="description"> Used tires can be recycled to produce materials for various applications, including playground surfaces, road construction, and rubberized asphalt.</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
+            <img src="assets/img/i2.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+
+      </div>
+    </section><!-- End About Section -->
 
   </main>
 

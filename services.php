@@ -114,21 +114,6 @@
             </div>
           </div>
 
-          <!-- <div class="col-md-6 col-lg-5" data-aos="" data-aos-delay="">
-            <div class="box">
-              <div class="icon"><i class="bi bi-brightness-high" style="color: #d6ff22;"></i></div>
-              <h4 class="title"><a>Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
-            <div class="box">
-              <div class="icon"><i class="bi bi-calendar4-week" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a>Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div> -->
-
         </div>
 
       </div>
@@ -137,7 +122,7 @@
 
     <!-- ======= Team Section ======= -->
     <section id="team">
-      <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="">
         <div class="section-header">
           <h3>Junk</h3>
           <p>The junk or materials that we usually buy and sell. <br>These scraps have fluctuating pricing. Pricing is constantly changing.</p>

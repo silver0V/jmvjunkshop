@@ -102,24 +102,53 @@
           <p></p>
         </div>
 
-        <div class="row mx-auto">
-          <div class="col-lg-6">
-            <div class="row justify-content-md-center">
-              <div class="col-md-5 info">
+        <!-- <div class="row mx-auto"> -->
+          <!-- <div class="col-lg-6"> -->
+            <!-- <div class="row justify-content-md-center">
+              <div class="col-4"></div>
+              <div class="col info">
                 <i class="bi bi-geo-alt"></i>
                 <p>141 J.P. Rizal St., San Jose, Baliwag, Bulacan</p>
-              </div>
-              <div class="col-md-4 info">
                 <i class="bi bi-envelope"></i>
                 <p>jmvjunkshop@gmail.com</p>
-              </div>
-              <div class="col-md-3 info">
                 <i class="bi bi-phone"></i>
                 <p>+63 (989) 545 2113</p>
               </div>
+              <div class="col"></div> -->
+
+              <!-- <div class="info">
+                <i class="bi bi-geo-alt"></i>
+                <p>141 J.P. Rizal St., San Jose, Baliwag, Bulacan</p>
+                <i class="bi bi-envelope"></i>
+                <p>jmvjunkshop@gmail.com</p>
+              </div>
+              <div class="info">
+              </div>
+              <div class="info">
+                <i class="bi bi-phone"></i>
+                <p>+63 (989) 545 2113</p>
+              </div> -->
             </div>
+            <!-- </div> -->
+          <!-- </div> -->
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-5 info">
+                <i class="bi bi-geo-alt"></i>
+                <p>A108 Adam Street, NY 535022</p>
+              </div>
+              <div class="col-md-4 info">
+                <i class="bi bi-envelope"></i>
+                <p>info@example.com</p>
+              </div>
+              <div class="col-md-3 info">
+                <i class="bi bi-phone"></i>
+                <p>+1 5589 55488 55</p>
+              </div>
             </div>
           </div>
+
           <div class="row mx-auto" data-aos="fade-up">
           <!-- <div class="col-lg-6"> -->
               <div class="map col-lg-6 ml-4">

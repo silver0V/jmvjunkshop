@@ -82,30 +82,42 @@
         </header>
 
         <div class="row about-container">
-
-          <div class="col-lg-6 content order-lg-1 order-2">
+          <div class="col"></div>
+          <div class="col-8">
             <h1>JMV Junkshop</h1>  <br>
             <p>
             JMV Junkshop is a buy-and-sell business that deals with customers’ scrap. From Monday through Saturday, the shop is open from 7:00 am to 5:00 pm. It is open on Sundays on specific occasions.
             </p>
           </div>
+          <div class="col"></div>
 
           <!-- <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
             <img src="assets/img/about-img.svg" class="img-fluid" alt="">
           </div> -->
         </div>
 
+
         <div class="row about-extra">
           <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
             <img src="assets/img/about-extra-2.svg" class="img-fluid" alt="">
           </div> -->
 
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="">
+          <div class="col"></div>
+          <div class="col-8">
+            <br>
+            <h4>Our Mission:</h4> <br>
+            <p>
+            Our mission is to provide efficient and eco-friendly waste management solutions by operating a junkshop company that promotes recycling and sustainable living. We aim to reduce the amount of waste sent to landfills by collecting, segregating, and processing recyclable materials, while also providing fair prices to our customers.
+            </p>
+          </div>
+          <div class="col"></div>
+
+          <!-- <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="">
             <h4>Our Mission:</h4> <br>
             <p>
               Our mission is to provide efficient and eco-friendly waste management solutions by operating a junkshop company that promotes recycling and sustainable living. We aim to reduce the amount of waste sent to landfills by collecting, segregating, and processing recyclable materials, while also providing fair prices to our customers.
             </p>
-          </div>
+          </div> -->
 
         </div>
 
@@ -113,20 +125,26 @@
           <!-- <div class="col-lg-6" data-aos="fade-right">
             <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="">
           </div> -->
-          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="">
-            <h4>Our Vision:</h4>  <br>
+
+          <div class="col"></div>
+          <div class="col-8">
+            <h4>Our Vision:</h4> <br>
             <p>
             Our vision is to be a leading junkshop company in our community, known for our commitment to sustainability and environmental stewardship. We strive to continuously improve our operations, expand our services, and educate our customers about the importance of waste reduction and recycling. Ultimately, we envision a future where waste is no longer seen as a problem, but as a valuable resource that can be reused and repurposed in innovative ways.
             </p>
           </div>
+          <div class="col"></div>
+
         </div>
 
         <div class="row about-extra">
           <!-- <div class="col-lg-6" data-aos="fade-right">
             <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="">
           </div> -->
-          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="">
-            <h1>Our Story</h1>  <br>
+
+          <div class="col"></div>
+          <div class="col-8">
+            <h1>Our Story</h1> <br>
             <p>
             In the year 2004, JMV Junkshop was established because of a heartfelt desire to provide a secure future for the owner's newly formed family with two beloved children.
             Established with love and determination, the company was born out of the need to create a reliable source of income and stability for their family. 
@@ -137,6 +155,7 @@
             The shop was operated by the owners for 19 years as a result of their diligence, strategy, and teamwork.
             </p>
           </div>
+          <div class="col"></div>
         </div>
 
       </div>

@@ -229,6 +229,7 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
       -->
+      <a href="https://www.freepik.com/free-vector/garbage-sorting-set_13146308.htm#query=recycle&position=16&from_view=search&track=sph">Image by pch.vector</a> on Freepik <br>
         Developed by <a>JMV Junkshop</a>
       </div>
     </div> 

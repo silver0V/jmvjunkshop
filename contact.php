@@ -144,7 +144,7 @@
               </div>
               <div class="col-md-3 info">
                 <i class="bi bi-phone"></i>
-                <p>+1 5589 55488 55</p>
+                <p>+63 (989) 545 2113</p>
               </div>
             </div>
           </div>

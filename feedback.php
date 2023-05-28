@@ -105,6 +105,7 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div> -->
+                <br>
                 <div class="text-center"><button type="submit" name="submit" title="Send Message">Send Feedback</button></div>
               </form>
             </div>
@@ -153,7 +154,7 @@
               141 J.P. Rizal St., <br>
               San Jose, Baliwag, Bulacan<br>
               Philippines <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Phone:</strong> +63 (989) 545 2113<br>
               <strong>Email:</strong> jmvjunkshop@gmail.com<br>
             </p>
 

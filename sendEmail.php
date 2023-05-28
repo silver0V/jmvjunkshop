@@ -5,10 +5,11 @@ if (isset($_POST['submit'])){
     $email = $_POST['email'];
     $feedback = $_POST['message'];
 
-    $mailTo = "jmvjunkshop@gmail.com";
-    $headers = "Feedback from: " . $name;
+    $to = "jmvjunkshop@gmail.com";
+    $subject = 'Feedback from: ' . $name;
+    $headers = "From: " . $email;
     
-    mail($mailTo, $name, $feedback, $headers);
+    mail($to, $subject, $feedback, $headers);
 
     header("Location: feedback.php");
 }

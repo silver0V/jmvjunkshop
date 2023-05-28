@@ -44,9 +44,9 @@ if (isset($_POST['submit'])){
 if (isset($_POST['submit'])){
     $to2 = $email;
     $subject2 = 'We received your feedback!';
-    $headers2 .= 'From: <jmvjunkshop@gmail.com>' . "\r\n";
     $headers2 = "MIME-Version: 1.0" . "\r\n";
     $headers2 .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $headers2 = 'From:jmvjunkshop@gmail.com' . "\r\n";
     $feedback2 = '<html>
     <head>
     <title>HTML email</title>
@@ -67,7 +67,10 @@ if (isset($_POST['submit'])){
     mail($to2, $subject2, $feedback2, $headers2);
 
 
-    header("Location: feedback.php");
+    echo '<script type="text/javascript">'; 
+    echo 'alert("Feedback sent!");'; 
+    echo 'window.location.href = "/feedback.php"';
+    echo '</script>';
 }
 
 // if (isset($_POST["submit"])) {

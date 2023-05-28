@@ -44,27 +44,23 @@ if (isset($_POST['submit'])){
 if (isset($_POST['submit'])){
     $to2 = $email;
     $subject2 = 'We received your feedback!';
-    $headers2 = "From: " . "jmvjunkshop@gmail.com";
-    // $headers2 = "MIME-Version: 1.0" . "\r\n";
-    // $headers2 .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $feedback2 = '<!DOCTYPE html>
-    <html lang="en">
+    $headers2 .= 'From: <jmvjunkshop@gmail.com>' . "\r\n";
+    $headers2 = "MIME-Version: 1.0" . "\r\n";
+    $headers2 .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $feedback2 = '<html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+    <title>HTML email</title>
     </head>
     <body>
-        Hello, <br> <br>
-    
-        Thank you for leaving feedback on our website! <br> <br>
-    
-        This auto-reply is to let you know that we have received your email and will get back to you with a human response as soon as possible. We appreciate the review that you sent for the improvement of the company. 
-        <br> <br>
-        If you have more concerns, please do not hesitate to contact us: <br>
-        <a href="">jmvjunkshop@gmail.com </a><br>
-        09895452113 <br>
+    Hello, <br> <br>
+
+    Thank you for leaving feedback on our website! <br> <br>
+
+    This auto-reply is to let you know that we have received your email and will get back to you with a human response as soon as possible. We appreciate the review that you sent for the improvement of the company. 
+    <br> <br>
+    If you have more concerns, please do not hesitate to contact us: <br>
+    <a href="">jmvjunkshop@gmail.com </a><br>
+    09895452113 <br>
     </body>
     </html>';
 

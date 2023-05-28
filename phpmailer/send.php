@@ -12,6 +12,7 @@ require 'vendor/autoload.php';
 $intro = "Feedback from: " . $_POST["name"];
 $email = $_POST["email"];
 $name = $_POST["name"];
+$feedback = $_POST["message"];
 
 if(isset($_POST["submit"])){
     $mail = new PHPMailer(true);
@@ -25,14 +26,18 @@ if(isset($_POST["submit"])){
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
-    // $mail->setFrom($email, $name);
-    $mail->addAddress('jmvjunkshop@gmail.com', 'JMV Junkshop'); 
+    // $mail->setFrom('jmvjunkshop@gmail.com', 'JMV Junkshop');
+    $mail->addAddress('jmvjunkshop@gmail.com'); 
     $mail->isHTML(true);
 
     $mail->Subject = $intro;
     $mail->Body = $_POST["message"];
 
     $mail->send();
+
+    
+
+
 
     // echo
     // "

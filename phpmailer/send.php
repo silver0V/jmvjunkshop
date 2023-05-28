@@ -25,12 +25,8 @@ if(isset($_POST["submit"])){
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
-    // $mail->From='vcarpool47@gmail.com';
-    // $mail->FromName='Carpool App';
-    $mail->setFrom('jmvjunkshop@gmail.com', 'JMV Junkshop');
-
-    $mail->addAddress($email, $name);
-
+    $mail->setFrom($email, $name);
+    $mail->addAddress('jmvjunkshop@gmail.com', 'JMV Junkshop'); 
     $mail->isHTML(true);
 
     $mail->Subject = $intro;
@@ -48,8 +44,7 @@ if(isset($_POST["submit"])){
     // header("Location: index.php");
     echo '<script type="text/javascript">'; 
     echo 'alert("Feedback sent!");'; 
-    echo 'window.location.href = "feedback.php";';
+    echo 'window.location.href = "../feedback.php"';
     echo '</script>';
-
 }
 ?>

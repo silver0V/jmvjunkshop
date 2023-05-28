@@ -45,6 +45,8 @@ if (isset($_POST['submit'])){
     $to2 = $email;
     $subject2 = 'We received your feedback!';
     $headers2 = "From: " . "jmvjunkshop@gmail.com";
+    $headers2 = "MIME-Version: 1.0" . "\r\n";
+    $headers2 .= "Content-type:text/html;charset=UTF-8" . "\r\n";
     $feedback2 = '<html>
     <head>
         <title>Document</title>

@@ -129,20 +129,31 @@
         </div>
 
         <div class="row">
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="100">
-            <div class="member">
-              <img src="assets/img/j1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Bakal</h4>
-                  <span>(Metal, steel)</span>
+        <?php
+        include 'admin/conn.php';
+        $row = mysqli_query($conn, "SELECT * FROM service WHERE status='0'");
+        ?>
+        <?php
+        if (mysqli_num_rows($row) > 0){
+          while ($images = mysqli_fetch_assoc($row)){ ?>
+    
+              <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="100">
+                <div class="member">
+                  <img src="assets/img/<?= $images['img'] ?>" class="img-fluid" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4><?php echo $images['junkName'] ?></h4>
+                      <span><?php echo $images['junkDesc'] ?></span>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
+      <?php }
+        } ?>
+        
+
+          <!-- <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
             <div class="member">
               <img src="assets/img/j2.jpg" class="img-fluid" alt="">
               <div class="member-info">
@@ -221,12 +232,12 @@
               <img src="assets/img/j9.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>and other recycables..</h4>
+                  <h4>and other recyclables..</h4>
                   <span>Customers are welcome to ask us if a certain material can be bought/sold</span>
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -278,11 +289,11 @@
             </p>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a class="twitter"></a>
+              <a class="facebook"></a>
+              <a class="instagram"></a>
+              <a class="instagram"></a>
+              <a class="linkedin"></a>
             </div>
 
           </div>

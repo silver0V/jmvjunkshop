@@ -73,7 +73,7 @@
   <main id="main">
     <!-- ======= Contact Section ======= -->
     <section id="contact">
-      <div class="container-fluid" data-aos="fade-up">
+      <div class="container-fluid" data-aos="">
         <br> <br> <br>
         <div class="section-header">
           <h3>Leave a Feedback</h3>
@@ -159,11 +159,11 @@
             </p>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a class="twitter"></a>
+              <a class="facebook"></a>
+              <a class="instagram"></a>
+              <a class="instagram"></a>
+              <a class="linkedin"></a>
             </div>
 
           </div>

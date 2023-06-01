@@ -12,8 +12,8 @@ $result = mysqli_query($conn, $sql);
         $row = mysqli_fetch_assoc($result);
 
         $id = $row['adminID'];
-        $_SESSION['Email'] = $row['uEmail'];
-        $_SESSION['Password'] = $row['uPass'];
+        // $_SESSION['Email'] = $row['uEmail'];
+        // $_SESSION['Password'] = $row['uPass'];
 
         if ($row ['email'] === $email && $row ['password'] === $pass ){
             header("Location: tables.php");
@@ -24,8 +24,8 @@ $result = mysqli_query($conn, $sql);
         <script>
         window.alert('User not Found!');
         window.location.href='index.html';
-        unset($_SESSION['Email']);
-        unset($_SESSION['Password']);
+        // unset($_SESSION['Email']);
+        // unset($_SESSION['Password']);
         </script>
    <?php }?>
 

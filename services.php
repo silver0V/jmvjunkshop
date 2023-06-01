@@ -153,7 +153,7 @@
         } ?>
         
 
-          <!-- <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
             <div class="member">
               <img src="assets/img/j2.jpg" class="img-fluid" alt="">
               <div class="member-info">
@@ -237,7 +237,7 @@
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
 
         </div>
 

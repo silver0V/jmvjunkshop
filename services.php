@@ -136,7 +136,6 @@
         <?php
         if (mysqli_num_rows($row) > 0){
           while ($images = mysqli_fetch_assoc($row)){ ?>
-    
               <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="100">
                 <div class="member">
                   <img src="assets/img/<?= $images['img'] ?>" class="img-fluid" alt="">

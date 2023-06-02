@@ -1,3 +1,26 @@
+<?php
+session_start();
+include('conn.php');
+if(isset($_REQUEST['submit'])){
+  $email = $_REQUEST['email'];
+  $password = $_REQUEST['password'];
+  $select_query = mysqli_query($conn, "SELECT * FROM admin WHERE email='$email' AND password='$password'");
+  $res = mysqli_num_rows($select_query);
+  if($res>0){
+    $data = mysqli_fetch_array($select_query);
+    $id = $data['adminID'];
+    $_SESSION['adminID'] = $id;
+    header('location:tables.php');
+  }else{ ?>
+    <script>
+        window.alert('Invalid credentials!');
+        window.location.href='index.php';
+        // unset($_SESSION['Email']);
+        // unset($_SESSION['Password']);
+        </script>
+<?php  }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,19 +40,19 @@
               <div class="card shadow-2-strong" style="border-radius: 1rem;">
                 <div class="card-body p-5 text-center">
       
-                  <h3 class="mb-5">Sign in</h3>
+                  <h3 class="mb-5">Log in</h3>
                     
-                  <form action="login.php" method="post">
+                  <form action="index.php" method="post">
                     <div class="form-outline mb-4">
-                        <input type="email" id="typeEmailX-2" name="email" class="form-control form-control-lg" placeholder="Email"/>
+                        <input type="email" name="email" class="form-control form-control-lg" placeholder="Email" required/>
                         <!-- <label class="form-label" for="typeEmailX-2">Email</label> -->
                       </div>
           
                       <div class="form-outline mb-4">
-                        <input type="password" id="typePasswordX-2" name="password" class="form-control form-control-lg" placeholder="Password"/>
+                        <input type="password" name="password" class="form-control form-control-lg" placeholder="Password" required/>
                         <!-- <label class="form-label" for="typePasswordX-2">Password</label> -->
                       </div>
-                      <button type="submit" class="btn btn-success btn-lg">Login</button>
+                      <button type="submit" name="submit" class="btn btn-success btn-lg">Login</button>
                       <!-- <button class="btn btn-primary btn-lg btn-block" type="submit" style="background: #03990f;">Login</button> -->
                   </form>
 

@@ -76,7 +76,7 @@ if (isset($_POST['submit'])){
 
     echo '<script type="text/javascript">'; 
     echo 'alert("Feedback sent!");'; 
-    echo 'window.location.href = "/feedback.php"';
+    echo 'window.location.href = "/feedback.html"';
     echo '</script>';
 }
 

@@ -28,6 +28,7 @@ $idd = $_SESSION['adminID'];
     <meta name="author" content="">
 
     <title>JMV Junkshop Admin Page</title>
+    <link href="../assets/img/jmvlogotrans.png" rel="icon">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">

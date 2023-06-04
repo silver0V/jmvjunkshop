@@ -25,7 +25,7 @@ $row = $query->fetch_array();
               <div class="card shadow-2-strong" style="border-radius: 1rem;">
                 <div class="card-body p-5 text-center">
       
-                  <h3 class="mb-5">Sign in</h3>
+                  <h3 class="mb-5">Update Junk</h3>
                     
                   <form action="editJ.php?id=<?php echo $id?>" method="post">
                     <div class="form-outline mb-4">
